@@ -1,0 +1,114 @@
+2015-09-06 12:03:15	-->	Korvacs (~Korvacs@125.60.156.170) has joined #laravel
+2015-09-06 12:03:15	--	Topic for #laravel is "Official Laravel IRC | Latest Laravel: 5.1.15 LTS & 5.0.33 & 4.2.17 | Latest Lumen: 5.1.2 | RIP Mike Dugan http://rememberingmikedugan.com | Don't PM people w/o asking | Don’t PM ops for support | Channel rules: http://goo.gl/Tl77U2 | Community portal: http://laravel.io"
+2015-09-06 12:03:15	--	Topic set by rizqi (~rizqi@ip219.ip-5-196-110.eu) on Fri, 04 Sep 2015 17:28:28
+2015-09-06 12:03:16	--	Channel #laravel: 464 nicks (2 ops, 2 voices, 460 normals)
+2015-09-06 12:03:18	--	Channel created on Sat, 18 Jun 2011 06:13:03
+2015-09-06 12:03:21	--	PvNotice(ChanServ): Welcome to the official IRC home of Laravel
+2015-09-06 12:03:21	--	URL for #laravel: http://laravel.com
+2015-09-06 12:03:21	bannakaffalatta	or really, it should be in the root of your cloned homestead directory
+2015-09-06 12:03:40	Anonaly	I remved the cloned homestead directory
+2015-09-06 12:03:53	Anonaly	the git clone command was optional apparently
+2015-09-06 12:04:07	sisve	ari```, Anonaly: All php errors are due to homestead being a php script. "homestead ssh" executes a php-script that starts ssh.
+2015-09-06 12:04:09	Anonaly	and all I need to do is  the vagrant box add laravel/homestead
+2015-09-06 12:04:29	ari```	sisve, ok I wasnt aware of that
+2015-09-06 12:04:29	bannakaffalatta	well that's step 1
+2015-09-06 12:04:36	ari```	I saw all this RUBY commands executing
+2015-09-06 12:04:40	sisve	../../autoload.php exists after a "composer dump-autoload"... if the other paths are okay.
+2015-09-06 12:04:43	ari```	I was like, why do I need ruby?
+2015-09-06 12:04:54	sisve	ari```: The vagrant scripts are ruby.
+2015-09-06 12:05:05	bannakaffalatta	^'
+2015-09-06 12:05:13	ari```	ok
+2015-09-06 12:05:24	sisve	Anonaly: if you do a "locate Homestead.yaml", where are the files?
+2015-09-06 12:05:27	ari```	so in order to be a productive developer in 2015 I need ruby, node.js, and PHP?
+2015-09-06 12:05:28	ari```	wtf
+2015-09-06 12:05:49	--	irc: disconnected from server
+2015-09-06 15:28:22	-->	Korvacs (~Korvacs@125.60.156.170) has joined #laravel
+2015-09-06 15:28:22	--	Topic for #laravel is "Official Laravel IRC | Latest Laravel: 5.1.15 LTS & 5.0.33 & 4.2.17 | Latest Lumen: 5.1.2 | RIP Mike Dugan http://rememberingmikedugan.com | Don't PM people w/o asking | Don’t PM ops for support | Channel rules: http://goo.gl/Tl77U2 | Community portal: http://laravel.io"
+2015-09-06 15:28:22	--	Topic set by rizqi (~rizqi@ip219.ip-5-196-110.eu) on Fri, 04 Sep 2015 17:28:28
+2015-09-06 15:28:23	--	Channel #laravel: 464 nicks (2 ops, 2 voices, 460 normals)
+2015-09-06 15:28:23	--	PvNotice(ChanServ): Welcome to the official IRC home of Laravel
+2015-09-06 15:28:23	--	URL for #laravel: http://laravel.com
+2015-09-06 15:28:25	--	Channel created on Sat, 18 Jun 2011 06:13:03
+2015-09-06 15:28:33	sisve	Laravel has laracast, is a well known system, and everything. October is a non-stable cms that's not used widely, and we cant get to work properly.
+2015-09-06 15:28:43	theWhisperIn	how easy is to create a photo upload and display in laravel?
+2015-09-06 15:29:05	Anonaly	right k I guess I just don't know where to start with css and all
+2015-09-06 15:29:26	Anonaly	I need something that has a menu at the top and a signin / signout link somewhere
+2015-09-06 15:29:39	ari```	you need to not try to skip steps!
+2015-09-06 15:29:46	ari```	you gotta crawl before you can walk, my friend!
+2015-09-06 15:30:09	<--	jgravois (~jgravois@2601:3c0:4200:db57::8853) has quit (Read error: Connection reset by peer)
+2015-09-06 15:30:22	Anonaly	So at first I was goign to just take a basic template from online and copy the code into the blade files
+2015-09-06 15:30:30	-->	jgravois (~jgravois@2601:3c0:4200:db57::8853) has joined #laravel
+2015-09-06 15:30:38	Anonaly	take the images and the css folders and place them in the public folder
+2015-09-06 15:30:50	ari```	if your goal is to simply spit out a quick site, fine
+2015-09-06 15:30:54	ari```	if your goal is to learn, very bad idea
+2015-09-06 15:30:59	ari```	do it from scratch
+2015-09-06 15:31:07	ari```	when you are experienced, THEN you can take shortcuts
+2015-09-06 15:31:29	Anonaly	yeah I know I can write all the code to get the menu and the header and all of that with html the long way, but why ?
+2015-09-06 15:31:35	Anonaly	it would look like crap
+2015-09-06 15:31:44	ari```	Only because you are not experienced
+2015-09-06 15:32:02	Anonaly	well that too
+2015-09-06 15:32:05	Anonaly	yes
+2015-09-06 15:32:07	sisve	theWhisperIn: Very easy.
+2015-09-06 15:32:20	theWhisperIn	sisve: explain a little bit further
+2015-09-06 15:32:31	<--	jgravois (~jgravois@2601:3c0:4200:db57::8853) has quit (Read error: Connection reset by peer)
+2015-09-06 15:32:31	-->	dadamssg (~clearc2@static-71-252-151-98.dllstx.fios.verizon.net) has joined #laravel
+2015-09-06 15:32:39	sisve	theWhisperIn: Create form for upload. Create controller that accepts upload and store files somewhere. Build view that shows file.
+2015-09-06 15:32:44	-->	jgravois (~jgravois@2601:3c0:4200:db57::8853) has joined #laravel
+2015-09-06 15:32:45	<--	regedit (~regedit@ool-3f8fe6bf.dyn.optonline.net) has quit (Ping timeout: 264 seconds)
+2015-09-06 15:33:01	sisve	theWhisperIn: http://laravel.com/docs/5.1/requests#files
+2015-09-06 15:33:04	ari```	Anonaly, Ill tell a short story
+2015-09-06 15:33:12	theWhisperIn	sisve: any library for this?
+2015-09-06 15:33:12	ari```	many many years ago I was a java developer
+2015-09-06 15:33:14	sisve	Woho! Children, gather around ari```!
+2015-09-06 15:33:20	ari```	And we were making desktop apps
+2015-09-06 15:33:30	xenomorph	sisve theWhisperIn and not to forget, there's http://image.intervention.io/ for image manipulation
+2015-09-06 15:33:32	ari```	At the time I thought we should use the GUI buiolder to do everything
+2015-09-06 15:33:45	ari```	but I was immediately shunned for this
+2015-09-06 15:33:51	ari```	and told to manually write the GUI code
+2015-09-06 15:33:55	ari```	I thought that was stupid
+2015-09-06 15:34:01	ari```	but eventually I realized they were right
+2015-09-06 15:34:11	ari```	because I learned what was happening "under the hood" so to speak
+2015-09-06 15:34:20	Anonaly	right
+2015-09-06 15:34:26	Anonaly	ok well I understand that
+2015-09-06 15:34:40	Anonaly	and I have done my fair share of html editing
+2015-09-06 15:34:43	Anonaly	css editing
+2015-09-06 15:34:51	xenomorph	Thank you for sharing your story with us, ari``` ;)
+2015-09-06 15:34:52	Anonaly	haven't made anything from scratch yet
+2015-09-06 15:34:57	-->	jgravois_ (~jgravois@c-73-177-46-157.hsd1.tn.comcast.net) has joined #laravel
+2015-09-06 15:36:04	-->	mrdiass (~mrdiass__@78.9.0.222) has joined #laravel
+2015-09-06 15:36:25	Anonaly	well I think I may abandon october all toghet
+2015-09-06 15:36:27	Anonaly	together
+2015-09-06 15:36:37	-->	ari`` (~owner@cpe-76-186-177-76.tx.res.rr.com) has joined #laravel
+2015-09-06 15:36:56	<--	ari`` (~owner@cpe-76-186-177-76.tx.res.rr.com) has quit (Changing host)
+2015-09-06 15:36:56	-->	ari`` (~owner@unaffiliated/int-64/x-2598199) has joined #laravel
+2015-09-06 15:37:01	<--	jgravois (~jgravois@2601:3c0:4200:db57::8853) has quit (Ping timeout: 246 seconds)
+2015-09-06 15:37:05	<--	jgravois_ (~jgravois@c-73-177-46-157.hsd1.tn.comcast.net) has quit (Read error: Connection reset by peer)
+2015-09-06 15:37:11	-->	jgravois (~jgravois@2601:3c0:4200:db57::8853) has joined #laravel
+2015-09-06 15:37:21	-->	ShikiRyogy (~quassel@87-126-120-208.btc-net.bg) has joined #laravel
+2015-09-06 15:37:31	<--	dadamssg (~clearc2@static-71-252-151-98.dllstx.fios.verizon.net) has quit (Ping timeout: 265 seconds)
+2015-09-06 15:38:05	-->	samons (d23867a4@gateway/web/cgi-irc/kiwiirc.com/ip.210.56.103.164) has joined #laravel
+2015-09-06 15:39:13	<--	jgravois (~jgravois@2601:3c0:4200:db57::8853) has quit (Read error: Connection reset by peer)
+2015-09-06 15:39:20	-->	jgravois (~jgravois@2601:3c0:4200:db57::8853) has joined #laravel
+2015-09-06 15:39:32	<--	ari``` (~owner@unaffiliated/int-64/x-2598199) has quit (Ping timeout: 268 seconds)
+2015-09-06 15:40:21	<--	skcin7 (~skcin7@cpe-76-94-194-11.socal.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-09-06 15:40:30	<--	ShikiRyogy (~quassel@87-126-120-208.btc-net.bg) has quit (Quit: No Ping reply in 180 seconds.)
+2015-09-06 15:41:26	user_corrupt	so the reason that I'm learning laravel now is because I'd been working on a project with PHP for a few months and it became really spaghettified
+2015-09-06 15:41:34	-->	jgravois_ (~jgravois@c-73-177-46-157.hsd1.tn.comcast.net) has joined #laravel
+2015-09-06 15:41:37	user_corrupt	and that is my story
+2015-09-06 15:41:42	-->	skcin7 (~skcin7@cpe-76-94-194-11.socal.res.rr.com) has joined #laravel
+2015-09-06 15:42:07	user_corrupt	basically just trying to not be a totally shitty coder forever
+2015-09-06 15:42:08	-->	cotalinux (~Cota@79.112.29.92) has joined #laravel
+2015-09-06 15:43:06	-->	owner__ (~owner@76.186.177.76) has joined #laravel
+2015-09-06 15:43:30	--	owner__ is now known as Guest6437
+2015-09-06 15:43:34	<--	Guest6437 (~owner@76.186.177.76) has quit (Changing host)
+2015-09-06 15:43:34	-->	Guest6437 (~owner@unaffiliated/int-64/x-2598199) has joined #laravel
+2015-09-06 15:43:34	+Rommie	Good morning Guest6437, welcome to #laravel.  Please type in "/nick your_new_nick" to change your name so we can distinguish you easily.
+2015-09-06 15:43:38	<--	jgravois_ (~jgravois@c-73-177-46-157.hsd1.tn.comcast.net) has quit (Read error: Connection reset by peer)
+2015-09-06 15:43:39	--	Guest6437 is now known as ari```
+2015-09-06 15:43:40	<--	jgravois (~jgravois@2601:3c0:4200:db57::8853) has quit (Ping timeout: 246 seconds)
+2015-09-06 15:43:47	-->	jgravois_ (~jgravois@2601:3c0:4200:db57::8853) has joined #laravel
+2015-09-06 15:43:49	xenomorph	Good to hear, user_corrupt :) Now on to SOLID and testing. ;)
+2015-09-06 15:44:26	<--	williamthe (~williamth@180.249.2.77) has quit (Remote host closed the connection)
+2015-09-06 15:45:27	<--	ari`` (~owner@unaffiliated/int-64/x-2598199) has quit (Ping timeout: 244 seconds)
+2015-09-06 15:45:46	<--	jgravois_ (~jgravois@2601:3c0:4200:db57::8853) has quit (Read error: Connection reset by peer)
+2015-09-06 15:46:02	-->	jgravois (~jgravois@2601:3c0:4200:db57::8853) has joined #laravel

@@ -1,0 +1,26 @@
+[2015-09-06 15:11:01] WeeChat 1.3 (compiled on Aug 20 2015 10:14:43)
+[2015-09-06 15:11:01] Reading configuration file sec.conf
+[2015-09-06 15:11:01] Reading configuration file weechat.conf
+[2015-09-06 15:11:01] Reading configuration file plugins.conf
+[2015-09-06 15:11:01] Reading configuration file charset.conf
+[2015-09-06 15:11:01] Reading configuration file logger.conf
+[2015-09-06 15:11:01] Reading configuration file exec.conf
+[2015-09-06 15:11:01] Reading configuration file trigger.conf
+[2015-09-06 15:11:01] Reading configuration file alias.conf
+[2015-09-06 15:11:01] Reading configuration file xfer.conf
+[2015-09-06 15:11:01] Reading configuration file irc.conf
+[2015-09-06 15:11:01] Reading configuration file relay.conf
+[2015-09-06 15:11:01] Reading configuration file buffers.conf
+[2015-09-06 15:11:01] Reading configuration file script.conf
+[2015-09-06 15:11:01] irc: connecting to server chat.freenode.net/6667...
+[2015-09-06 15:47:45] Terminal lost, exiting WeeChat...
+[2015-09-06 15:47:45] Writing configuration file plugins.conf
+[2015-09-06 15:47:45] Signal SIGTERM received, exiting WeeChat...
+[2015-09-06 15:47:45] Writing configuration file exec.conf
+[2015-09-06 15:47:45] Signal SIGHUP received, exiting WeeChat...
+[2015-09-06 15:47:45] Signal SIGHUP received, exiting WeeChat...
+[2015-09-06 15:47:45] Signal SIGHUP received, exiting WeeChat...
+[2015-09-06 15:47:45] Writing configuration file xfer.conf
+[2015-09-06 15:47:45] Writing configuration file script.conf
+[2015-09-06 15:47:45] Writing configuration file alias.conf
+[2015-09-06 15:47:45] Writing configuration file buffers.conf

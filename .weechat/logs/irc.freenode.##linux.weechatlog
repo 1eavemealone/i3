@@ -1,0 +1,199 @@
+2015-09-06 15:11:32	-->	Korvacs (~Korvacs@125.60.156.170) has joined ##linux
+2015-09-06 15:11:32	--	Topic for ##linux is "It's offical! We're now Linux.Chat! | Channel website: http://linux.chat | Pastebin: http://paste.linux.chat | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2015-09-06 15:11:32	--	Topic set by DLange (~DLange@about/linux/staff/dlange) on Wed, 08 Jul 2015 21:54:11
+2015-09-06 15:11:33	--	Channel ##linux: 1922 nicks (0 ops, 0 voices, 1922 normals)
+2015-09-06 15:11:33	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2015-09-06 15:11:33	--	URL for ##linux: http://linux.chat
+2015-09-06 15:11:35	--	Channel created on Sat, 10 Feb 2001 07:16:24
+2015-09-06 15:12:01	-->	kevin2r (~kevin2r@c-73-0-206-3.hsd1.fl.comcast.net) has joined ##linux
+2015-09-06 15:12:01	<--	mindbender1 (~chijioke@197.211.52.17) has quit (Read error: Connection reset by peer)
+2015-09-06 15:12:37	Pessimist	atrx_, that's totally not a copycat :^)
+2015-09-06 15:13:01	<--	pilva (~pilva@ar-217-129-86-203.netvisao.pt) has quit (Ping timeout: 268 seconds)
+2015-09-06 15:13:19	<--	Viper-7 (~viper7@viper-7.com) has left ##linux
+2015-09-06 15:13:33	<--	Johnkyp (~Johnkyp@150.255.28.12) has quit (Ping timeout: 264 seconds)
+2015-09-06 15:13:38	atrx_	Pessimist, whcih one?
+2015-09-06 15:13:47	Pessimist	atrx_, "musique"
+2015-09-06 15:14:06	<--	Haxxa (~Harrison@CPE-124-189-140-77.cyzn1.lon.bigpond.net.au) has quit (Ping timeout: 272 seconds)
+2015-09-06 15:15:38	atrx_	not the features. just interface looks awful familiar :D
+2015-09-06 15:16:35	Giraffe_	how can i have it so when a window is modified (like i click a link and it opens in chrome) chrome comes to the front? (kde plasma 5.3)
+2015-09-06 15:16:53	-->	DarkBloodWolf (~WolfHound@unaffiliated/darkbloodwolf) has joined ##linux
+2015-09-06 15:16:59	b4b	i slap a nerds face!
+2015-09-06 15:17:05	-->	Wizek (~Wizek@catv-178-48-235-127.catv.broadband.hu) has joined ##linux
+2015-09-06 15:17:50	atrx_	update alternative
+2015-09-06 15:18:16	peetaur	Giraffe_: adjust your focus stealing prevention in the window behavior settings
+2015-09-06 15:18:47	-->	zerete (~zerete@cm-188-171-6-96.telecable.es) has joined ##linux
+2015-09-06 15:19:36	-->	copygift (~copygift@103.59.214.30) has joined ##linux
+2015-09-06 15:21:15	Giraffe_	peetaur: to high or none?
+2015-09-06 15:21:26	peetaur	to something lower than you had before
+2015-09-06 15:21:44	<--	fergus (~sergei@37.214.233.149) has quit (Read error: Connection reset by peer)
+2015-09-06 15:21:46	peetaur	I prefer it sorta high and then just deal with the problems like you have now
+2015-09-06 15:21:57	Giraffe_	ah, so none is what worked
+2015-09-06 15:22:01	Giraffe_	(it was low by default)
+2015-09-06 15:22:04	Giraffe_	thanks
+2015-09-06 15:22:16	-->	BOKALDO (~BOKALDO@81.198.156.86) has joined ##linux
+2015-09-06 15:22:16	peetaur	currently I have "Focus Follows Mouse - Mouse Precedence" and focus stealing prevention "Medium"
+2015-09-06 15:22:27	peetaur	(and "click raises active window" = off)
+2015-09-06 15:22:41	<--	copygift (~copygift@103.59.214.30) has left ##linux
+2015-09-06 15:23:09	Giraffe_	wheres Focus Follows Mouse?
+2015-09-06 15:23:31	-->	gffa (~unknown@unaffiliated/gffa) has joined ##linux
+2015-09-06 15:23:45	peetaur	the slider thingy above the focus stealing prevention thing
+2015-09-06 15:23:47	peetaur	in kde4
+2015-09-06 15:24:05	Giraffe_	oh thats 'Click To Focus' for me
+2015-09-06 15:24:16	Giraffe_	ah i see
+2015-09-06 15:24:35	-->	anglisc (~aethelber@81-86-151-146.dsl.pipex.com) has joined ##linux
+2015-09-06 15:24:35	-->	iudicare (~iudicare@c-71-194-149-75.hsd1.il.comcast.net) has joined ##linux
+2015-09-06 15:24:35	<--	eatsfoobars (~eatsfooba@ppp-94-69-111-198.home.otenet.gr) has quit
+2015-09-06 15:24:35	peetaur	I like focus where I'm pointing and no click focus, so I can copy and paste from something behind another thing and it doesn't cover the other thing
+2015-09-06 15:24:37	<--	aBound (~aBound@unaffiliated/abound) has quit (Quit: Leaving)
+2015-09-06 15:24:42	-->	mrtn1988 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has joined ##linux
+2015-09-06 15:24:58	Giraffe_	i just figured out color schemes today, <3 dark skype
+2015-09-06 15:24:59	<--	mrtn1988 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has quit (Max SendQ exceeded)
+2015-09-06 15:25:01	Giraffe_	ALL THE DARK
+2015-09-06 15:25:27	-->	mrtn1988 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has joined ##linux
+2015-09-06 15:25:27	<--	crank1988 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has quit (Ping timeout: 265 seconds)
+2015-09-06 15:25:57	<--	xameada (~william@ip98-165-175-172.ph.ph.cox.net) has quit (Quit: WeeChat 1.3)
+2015-09-06 15:27:23	<--	FI_OpwK (~os-7561-p@pool-72-81-188-53.bltmmd.east.verizon.net) has quit (Ping timeout: 246 seconds)
+2015-09-06 15:27:39	-->	moonpunter (~chatzilla@206.255.86.207) has joined ##linux
+2015-09-06 15:27:47	<--	moonpunter (~chatzilla@206.255.86.207) has quit (Changing host)
+2015-09-06 15:27:47	-->	moonpunter (~chatzilla@unaffiliated/moonpunter) has joined ##linux
+2015-09-06 15:27:54	-->	Boneyards (~boneyards@cpe-71-79-48-125.cinci.res.rr.com) has joined ##linux
+2015-09-06 15:27:58	-->	roxtrong_ (~roxtrongo@179.8.176.150) has joined ##linux
+2015-09-06 15:27:59	<--	b4b (~b4b@32.211.52.104) has quit (Quit: b4b)
+2015-09-06 15:28:11	-->	qg_ (~qg_@c-73-43-119-1.hsd1.ga.comcast.net) has joined ##linux
+2015-09-06 15:29:06	-->	copygift (~copygift@103.59.214.30) has joined ##linux
+2015-09-06 15:29:12	<--	Latrodectus (~Alexsis@S01060026f3986f8f.wp.shawcable.net) has quit (Quit: leaving)
+2015-09-06 15:29:23	-->	Nytestaar (~Nightstaa@CPE-137-147-157-73.lnse7.win.bigpond.net.au) has joined ##linux
+2015-09-06 15:29:31	<--	copygift (~copygift@103.59.214.30) has left ##linux
+2015-09-06 15:29:40	<--	d6chung (~hnl@cpe-66-8-129-114.hawaii.res.rr.com) has quit (Ping timeout: 250 seconds)
+2015-09-06 15:30:21	<--	roxtrongo (~roxtrongo@190.22.139.129) has quit (Ping timeout: 252 seconds)
+2015-09-06 15:30:28	<--	Nightstaar (~Nightstaa@CPE-121-214-55-46.lnse4.win.bigpond.net.au) has quit (Ping timeout: 244 seconds)
+2015-09-06 15:30:49	<--	wasbee_ (~textual@23.252.50.206) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-09-06 15:30:55	-->	acke (~acke@2.65.119.179.mobile.tre.se) has joined ##linux
+2015-09-06 15:31:00	-->	jgertm (~amontimur@46.128.43.80.dynamic.cablesurf.de) has joined ##linux
+2015-09-06 15:31:10	<--	Boneyards (~boneyards@cpe-71-79-48-125.cinci.res.rr.com) has quit (Client Quit)
+2015-09-06 15:31:31	-->	byt3 (~byt3@a85-138-67-71.cpe.netcabo.pt) has joined ##linux
+2015-09-06 15:31:35	-->	d6chung (~hnl@cpe-66-8-129-114.hawaii.res.rr.com) has joined ##linux
+2015-09-06 15:32:22	<--	acke (~acke@2.65.119.179.mobile.tre.se) has quit (Remote host closed the connection)
+2015-09-06 15:32:31	<--	jenelizabeth (~jenelizab@cpc76794-brmb10-2-0-cust21.1-3.cable.virginm.net) has quit (Read error: No route to host)
+2015-09-06 15:32:35	<--	qg_ (~qg_@c-73-43-119-1.hsd1.ga.comcast.net) has quit (Ping timeout: 250 seconds)
+2015-09-06 15:32:45	<--	regedit (~regedit@ool-3f8fe6bf.dyn.optonline.net) has quit (Ping timeout: 264 seconds)
+2015-09-06 15:32:45	-->	ShapeShifter499 (~ShapeShif@unaffiliated/shapeshifter499) has joined ##linux
+2015-09-06 15:32:46	-->	jenelizabeth (~jenelizab@86.21.44.22) has joined ##linux
+2015-09-06 15:32:48	-->	mrawrt20 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has joined ##linux
+2015-09-06 15:33:07	<--	mrtn1988 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has quit (Read error: Connection reset by peer)
+2015-09-06 15:33:26	<--	rhonabwy (~rhonabwy@2001:4c50:16f:6500:f1e3:262f:68c:d99b) has quit (Read error: Connection reset by peer)
+2015-09-06 15:33:40	<--	mrawrt20 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has quit (Max SendQ exceeded)
+2015-09-06 15:33:41	-->	ac3takwas (~acetakwas@105.112.28.155) has joined ##linux
+2015-09-06 15:33:44	-->	rhonabwy (~rhonabwy@2001:4c50:16f:6500:f1e3:262f:68c:d99b) has joined ##linux
+2015-09-06 15:34:05	-->	mrawrt20 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has joined ##linux
+2015-09-06 15:34:37	misterno	i run linux in vm so i can change wallpapers and listen to radio
+2015-09-06 15:34:45	misterno	i really dont know what else to do with linux
+2015-09-06 15:34:52	<--	mrawrt20 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has quit (Max SendQ exceeded)
+2015-09-06 15:34:53	Giraffe_	program?
+2015-09-06 15:35:02	-->	acke (~acke@2.65.119.179.mobile.tre.se) has joined ##linux
+2015-09-06 15:35:06	<--	acke (~acke@2.65.119.179.mobile.tre.se) has quit (Remote host closed the connection)
+2015-09-06 15:35:10	misterno	i dont program
+2015-09-06 15:35:19	iudicare	you should probably use it to learn how to ride a giraffe
+2015-09-06 15:35:21	-->	mrawrt20 (~crank1988@ip-217-103-58-150.ip.prioritytelecom.net) has joined ##linux
+2015-09-06 15:35:25	misterno	hehe
+2015-09-06 15:35:34	Giraffe_	that pinged me D:
+2015-09-06 15:35:34	-->	acke (~acke@2.65.119.179.mobile.tre.se) has joined ##linux
+2015-09-06 15:35:34	<--	acke (~acke@2.65.119.179.mobile.tre.se) has quit (Remote host closed the connection)
+2015-09-06 15:35:38	Giraffe_	please dont ride me
+2015-09-06 15:35:42	misterno	lol
+2015-09-06 15:35:46	iudicare	I use it so I dont have to cut my haair
+2015-09-06 15:35:47	morb1d	What do you use any other operating system for misterno?
+2015-09-06 15:35:51	morb1d	I'm sure you can do it in linux.
+2015-09-06 15:35:55	<--	compl_te (~comp@unaffiliated/compl-te/x-3181429) has quit (Quit: WeeChat 1.3)
+2015-09-06 15:36:06	-->	mindbender1 (~chijioke@197.211.52.17) has joined ##linux
+2015-09-06 15:36:09	-->	eatsfoobars (~eatsfooba@ppp-94-69-111-198.home.otenet.gr) has joined ##linux
+2015-09-06 15:36:14	-->	acke (~acke@194.213.119.5) has joined ##linux
+2015-09-06 15:36:19	misterno	i use windows to browse internet, play games, download applications watch movies
+2015-09-06 15:36:30	Giraffe_	what games
+2015-09-06 15:36:56	misterno	league of legends
+2015-09-06 15:36:56	sauvin	I wouldn't use windows for browsing or downloading.
+2015-09-06 15:36:56	-->	marshal0505 (~marshal05@trivialand/elite/marshal0505) has joined ##linux
+2015-09-06 15:37:01	Giraffe_	then you can totally go all-linux
+2015-09-06 15:37:08	-->	sachin_a (~sachin@49.244.181.132) has joined ##linux
+2015-09-06 15:37:14	-->	zwug (~zdm@172.56.9.93) has joined ##linux
+2015-09-06 15:37:17	misterno	cant
+2015-09-06 15:37:20	--	wowaname is now known as wowacholb
+2015-09-06 15:37:37	misterno	if i wanna run audio program there isn't many
+2015-09-06 15:37:44	misterno	if i wanna run 3d program there isnt many
+2015-09-06 15:37:50	iudicare	yessir there are
+2015-09-06 15:37:51	<--	sadran_ (~sadran@78-57-255-47.static.zebra.lt) has quit (Remote host closed the connection)
+2015-09-06 15:37:56	misterno	not many
+2015-09-06 15:38:00	morb1d	League has a gold rating on winehq
+2015-09-06 15:38:24	Giraffe_	'3d program'?
+2015-09-06 15:38:27	Giraffe_	like blender?
+2015-09-06 15:38:33	misterno	no
+2015-09-06 15:38:33	iudicare	that was my guess
+2015-09-06 15:38:36	misterno	like 3ds max
+2015-09-06 15:38:41	-->	Solitary (~Solitary@ip-62-245-69-81.net.upcbroadband.cz) has joined ##linux
+2015-09-06 15:38:44	<--	karmahacker (~karmahack@unaffiliated/karmahacker) has quit (Remote host closed the connection)
+2015-09-06 15:39:06	<--	Ctrl-Alt-Del (~Ctrl@187-41-118-227.user.veloxzone.com.br) has quit (Quit: Saindo)
+2015-09-06 15:39:13	Giraffe_	why would you not want http://i.imgur.com/tREBJcf.png? :P
+2015-09-06 15:39:19	sauvin	Like he said: blender.
+2015-09-06 15:39:33	sauvin	What do you mean by 'audio program'?
+2015-09-06 15:39:38	misterno	thats kubuntu
+2015-09-06 15:39:40	misterno	i have it :)
+2015-09-06 15:39:54	-->	lasserix (~bithole@ip98-164-252-242.oc.oc.cox.net) has joined ##linux
+2015-09-06 15:40:05	morb1d	how do you watch movies normally misterno
+2015-09-06 15:40:16	morb1d	I almost always have netflix up on my main rig.
+2015-09-06 15:40:32	-->	evanton (~cbbe@unaffiliated/evanton) has joined ##linux
+2015-09-06 15:40:36	<--	lasserix_ (~bithole@ip98-164-252-242.oc.oc.cox.net) has quit (Ping timeout: 255 seconds)
+2015-09-06 15:40:38	misterno	movies are not the issue i dont remember last time i watched one
+2015-09-06 15:40:42	 *	sauvin watches lots of movie DVDs with mplayer
+2015-09-06 15:40:46	<--	Relapse (~Technicia@unaffiliated/relapse) has quit (Quit: Leaving)
+2015-09-06 15:41:04	misterno	you havent changed wallpaper on your kubuntu
+2015-09-06 15:41:06	 *	hpotter is also using mplayer for most audio and video.
+2015-09-06 15:41:07	misterno	XD
+2015-09-06 15:41:13	misterno	NOOB
+2015-09-06 15:41:18	-->	steelbrain (~steelbrai@119.63.142.63) has joined ##linux
+2015-09-06 15:41:19	misterno	haha
+2015-09-06 15:41:21	morb1d	so basically the only issue you're actually saying is you can't run 3ds max on linux
+2015-09-06 15:41:22	<--	marienz (~marienz@freenode/staff/marienz) has quit (Quit: upgrades)
+2015-09-06 15:41:26	iudicare	feh --bg-scale
+2015-09-06 15:41:26	morb1d	because everything else is possible
+2015-09-06 15:41:27	<--	Eette (~Eette@ip70-177-79-240.ok.ok.cox.net) has quit
+2015-09-06 15:41:31	sauvin	hpotter, that's a gas - I *just* now finished watching Deathly Hollows.
+2015-09-06 15:41:32	misterno	audio apps too
+2015-09-06 15:41:36	misterno	mixer apps
+2015-09-06 15:41:49	hpotter	alsamixer?
+2015-09-06 15:41:57	misterno	audio mixer
+2015-09-06 15:42:05	morb1d	i can't remember the program i always used to use...
+2015-09-06 15:42:12	misterno	to mix multiple audio streams , lets say you are onskype
+2015-09-06 15:42:13	iudicare	yeah I hurd listening to mp3s on linux is pretty lame
+2015-09-06 15:42:22	misterno	using mixer app you can mix skype, music, or something else
+2015-09-06 15:42:28	hpotter	audacity?
+2015-09-06 15:42:29	evanton	misterno: you have a wallpaper
+2015-09-06 15:42:32	evanton	NOOB
+2015-09-06 15:42:32	evanton	haha
+2015-09-06 15:42:43	misterno	haha i have many but on elementary os
+2015-09-06 15:42:47	SyncYourDogmas	mpd? clementine? both are great
+2015-09-06 15:42:50	misterno	i havent been on kubuntu much lately
+2015-09-06 15:43:00	morb1d	yeah audacity is what i was thinking
+2015-09-06 15:43:04	evanton	misterno: I don't mean you have one wallpaper, you have wallpaper at all
+2015-09-06 15:43:28	ShapeShifter499	hi
+2015-09-06 15:43:43	iudicare	hello
+2015-09-06 15:43:52	misterno	audacity is not DAW with vst plugins
+2015-09-06 15:44:11	misterno	you guys think because you have one audio app that you are all set XD
+2015-09-06 15:44:17	<--	yusufu (~yusufu@113.116.201.169) has quit (Ping timeout: 252 seconds)
+2015-09-06 15:44:19	misterno	or because you have one 3d app that you are all set
+2015-09-06 15:44:22	-->	b3eKe3per (~bk@accwebl.ac2.es) has joined ##linux
+2015-09-06 15:44:41	<--	Filystyn (~piotr@031011212161.warszawa.vectranet.pl) has quit (Quit: Konversation terminated!)
+2015-09-06 15:45:00	ShapeShifter499	so I use keepassx on my Linux box, I noticed there is a "expiration date" that can be set, reading online documentation this means it's like a reminder to reset your password. Am I correct guys?
+2015-09-06 15:45:03	misterno	have you ever heard of Native Instruments Guitar Rig?
+2015-09-06 15:45:16	misterno	amazing little program to play a guitar
+2015-09-06 15:45:35	--	Mode ##linux [+o sauvin] by ChanServ
+2015-09-06 15:45:36	--	Mode ##linux [-b $a:psi-jack] by sauvin
+2015-09-06 15:45:38	--	Mode ##linux [-o sauvin] by ChanServ
+2015-09-06 15:45:41	iudicare	ShapeShifter499: that would be password expiration
+2015-09-06 15:46:08	-->	Psi-Jack (~psi-jack@unaffiliated/psi-jack) has joined ##linux
+2015-09-06 15:46:10	iudicare	ShapeShifter499: also if you are using a keyfile you may need to change that too
+2015-09-06 15:46:19	-->	marachuca (~scoverga@77.87.89.10) has joined ##linux
+2015-09-06 15:46:20	ShapeShifter499	iudicare: hmm?
+2015-09-06 15:46:42	<--	gh0st1649 (~htaccess@unaffiliated/gh0st1649) has quit (Quit: gh0st1649)
+2015-09-06 15:46:45	iudicare	password = something you know; keyfile = something you have
+2015-09-06 15:46:46	misterno	you dont like lastpass?
+2015-09-06 15:46:56	iudicare	for better security

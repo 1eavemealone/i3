@@ -1,0 +1,123 @@
+2015-09-06 11:58:53	--	irc: connecting to server chat.freenode.net/6667...
+2015-09-06 11:58:54	--	irc: connected to chat.freenode.net/6667 (195.154.200.232)
+2015-09-06 11:58:54	--	barjavel.freenode.net: *** Looking up your hostname...
+2015-09-06 11:58:55	--	barjavel.freenode.net: *** Checking Ident
+2015-09-06 11:58:55	--	barjavel.freenode.net: *** No Ident response
+2015-09-06 11:58:55	--	barjavel.freenode.net: *** Couldn't look up your hostname
+2015-09-06 11:58:55	--	Welcome to the freenode Internet Relay Chat Network Korvacs
+2015-09-06 11:58:55	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.3
+2015-09-06 11:58:55	--	This server was created Fri Oct 24 2014 at 13:59:13 UTC
+2015-09-06 11:58:55	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-09-06 11:58:55	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-09-06 11:58:55	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-09-06 11:58:55	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-09-06 11:58:55	--	There are 158 users and 79810 invisible on 25 servers
+2015-09-06 11:58:55	--	24 :IRC Operators online
+2015-09-06 11:58:55	--	8 :unknown connection(s)
+2015-09-06 11:58:55	--	61782 :channels formed
+2015-09-06 11:58:55	--	I have 5572 clients and 1 servers
+2015-09-06 11:58:55	--	5572 9559 :Current local users 5572, max 9559
+2015-09-06 11:58:55	--	79968 105669 :Current global users 79968, max 105669
+2015-09-06 11:58:55	--	Highest connection count: 9560 (9559 clients) (2730503 connections received)
+2015-09-06 11:58:55	--	- barjavel.freenode.net Message of the Day -
+2015-09-06 11:58:55	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2015-09-06 11:58:55	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2015-09-06 11:58:55	--	- this server!
+2015-09-06 11:58:55	--	-
+2015-09-06 11:58:55	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2015-09-06 11:58:55	--	- science-fiction author, a journalist and a critic. He is
+2015-09-06 11:58:55	--	- credited with having written the first novel to introduce
+2015-09-06 11:58:55	--	- the Grandfather Paradox in time travel, in his 1943 work
+2015-09-06 11:58:55	--	- 'Le Voyageur imprudent'.
+2015-09-06 11:58:55	--	-
+2015-09-06 11:58:55	--	- Welcome to freenode - supporting the free and open source
+2015-09-06 11:58:55	--	- software communities since 1998.
+2015-09-06 11:58:55	--	-
+2015-09-06 11:58:55	--	- By connecting to freenode you indicate that you have read and
+2015-09-06 11:58:55	--	- accept our policies as set out on http://www.freenode.net
+2015-09-06 11:58:55	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-09-06 11:58:55	--	- any network-related questions or queries, where a number of
+2015-09-06 11:58:55	--	- volunteer staff and helpful users will be happy to assist you.
+2015-09-06 11:58:55	--	-
+2015-09-06 11:58:55	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-09-06 11:58:55	--	- together with like-minded FOSS enthusiasts for talks and
+2015-09-06 11:58:55	--	- real-life collaboration.
+2015-09-06 11:58:55	--	-
+2015-09-06 11:58:55	--	- We would like to thank Private Internet Access
+2015-09-06 11:58:55	--	- (https://www.privateinternetaccess.com/) and the other
+2015-09-06 11:58:55	--	- organisations that help keep freenode and our other projects
+2015-09-06 11:58:55	--	- running for their sustained support.
+2015-09-06 11:58:55	--	-
+2015-09-06 11:58:56	--	- In particular we would like to thank the sponsor
+2015-09-06 11:58:56	--	- of this server, details of which can be found above.
+2015-09-06 11:58:56	--	-
+2015-09-06 11:58:56	--	End of /MOTD command.
+2015-09-06 11:58:56	--	User mode [+i] by Korvacs
+2015-09-06 11:58:56	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-09-06 11:59:23	--	MSG(NickServ): identify *******
+2015-09-06 11:59:23	--	NickServ (NickServ@services.): You are now identified for Korvacs.
+2015-09-06 11:59:29	--	i3: No such channel
+2015-09-06 12:00:10	=!=	irc: this buffer is not a channel!
+2015-09-06 12:05:49	--	irc: disconnected from server
+2015-09-06 15:11:01	--	irc: connecting to server chat.freenode.net/6667...
+2015-09-06 15:11:02	--	irc: connected to chat.freenode.net/6667 (185.30.166.37)
+2015-09-06 15:11:02	--	verne.freenode.net: *** Looking up your hostname...
+2015-09-06 15:11:03	--	verne.freenode.net: *** Checking Ident
+2015-09-06 15:11:03	--	verne.freenode.net: *** No Ident response
+2015-09-06 15:11:03	--	verne.freenode.net: *** Couldn't look up your hostname
+2015-09-06 15:11:03	--	Welcome to the freenode Internet Relay Chat Network Korvacs
+2015-09-06 15:11:03	--	Your host is verne.freenode.net[185.30.166.37/6667], running version ircd-seven-1.1.3
+2015-09-06 15:11:03	--	This server was created Wed Jun 10 2015 at 11:49:56 UTC
+2015-09-06 15:11:03	--	verne.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-09-06 15:11:03	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-09-06 15:11:03	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-09-06 15:11:03	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-09-06 15:11:03	--	There are 161 users and 79226 invisible on 25 servers
+2015-09-06 15:11:03	--	24 :IRC Operators online
+2015-09-06 15:11:03	--	6 :unknown connection(s)
+2015-09-06 15:11:03	--	61645 :channels formed
+2015-09-06 15:11:03	--	I have 4157 clients and 1 servers
+2015-09-06 15:11:03	--	4157 4817 :Current local users 4157, max 4817
+2015-09-06 15:11:03	--	79387 96692 :Current global users 79387, max 96692
+2015-09-06 15:11:03	--	Highest connection count: 4818 (4817 clients) (532260 connections received)
+2015-09-06 15:11:03	--	- verne.freenode.net Message of the Day -
+2015-09-06 15:11:03	--	- Welcome to verne.freenode.net in Amsterdam, NL.
+2015-09-06 15:11:03	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2015-09-06 15:11:03	--	- this server!
+2015-09-06 15:11:03	--	-
+2015-09-06 15:11:03	--	-
+2015-09-06 15:11:03	--	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2015-09-06 15:11:03	--	- a pioneering french author known for novels such as Twenty
+2015-09-06 15:11:03	--	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2015-09-06 15:11:03	--	- Earth, and Around the World in Eighty Days. Often lauded as the
+2015-09-06 15:11:03	--	- Father of science fiction, Verne wrote about concepts such as
+2015-09-06 15:11:03	--	- space travel, skyscrapers, and worldwide communications
+2015-09-06 15:11:03	--	- networks long before these ideas became popularised or realised.
+2015-09-06 15:11:03	--	-
+2015-09-06 15:11:03	--	- Welcome to freenode - supporting the free and open source
+2015-09-06 15:11:03	--	- software communities since 1998.
+2015-09-06 15:11:03	--	-
+2015-09-06 15:11:03	--	- By connecting to freenode you indicate that you have read and
+2015-09-06 15:11:03	--	- accept our policies as set out on http://www.freenode.net
+2015-09-06 15:11:03	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-09-06 15:11:03	--	- any network-related questions or queries, where a number of
+2015-09-06 15:11:03	--	- volunteer staff and helpful users will be happy to assist you.
+2015-09-06 15:11:03	--	-
+2015-09-06 15:11:03	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-09-06 15:11:03	--	- together with like-minded FOSS enthusiasts for talks and
+2015-09-06 15:11:03	--	- real-life collaboration.
+2015-09-06 15:11:03	--	-
+2015-09-06 15:11:03	--	- We would like to thank Private Internet Access
+2015-09-06 15:11:03	--	- (https://www.privateinternetaccess.com/) and the other
+2015-09-06 15:11:03	--	- organisations that help keep freenode and our other projects
+2015-09-06 15:11:03	--	- running for their sustained support.
+2015-09-06 15:11:03	--	-
+2015-09-06 15:11:03	--	- In particular we would like to thank the sponsor
+2015-09-06 15:11:03	--	- of this server, details of which can be found above.
+2015-09-06 15:11:03	--	-
+2015-09-06 15:11:03	--	End of /MOTD command.
+2015-09-06 15:11:03	--	User mode [+i] by Korvacs
+2015-09-06 15:11:03	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-09-06 15:11:23	--	MSG(NickServ): identify *******
+2015-09-06 15:11:24	--	NickServ (NickServ@services.): You are now identified for Korvacs.
+2015-09-06 15:11:32	--	#linux: ##linux :Forwarding to another channel
